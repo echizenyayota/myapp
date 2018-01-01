@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/echizenyayota/myapp/issues"
   },
-  "homepage": "https://github.com/echizenyayota/myapp#readme"
+  "homepage": "https://github.com/echizenyayota/myapp#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
