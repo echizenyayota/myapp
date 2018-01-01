@@ -19,3 +19,12 @@ router.get('/', function(req, res, next) {
   });
 
 }
+
+// Receive a payment method nonce from your client
+router.post("/checkout", function (req, res) {
+
+  // Use payment method nonce here
+  console.log(req.body);
+  var gateway = braintree.connect({
+    accessToken: ACCESS_TOKEN
+});
