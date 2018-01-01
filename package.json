@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "BraintreeSDKNodeDemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echizenyayota/myapp.git"
+  },
+  "keywords": [
+    "BraintreeSDK"
+  ],
+  "author": "echizenya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/echizenyayota/myapp/issues"
+  },
+  "homepage": "https://github.com/echizenyayota/myapp#readme"
+}
