@@ -5,6 +5,8 @@ var express = require('express'),
     router = express.Router(),
     braintree = require('braintree');
 
+var ACCESS_TOKEN =　'access_token$sandbox$ACCESSTOKEN';
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
